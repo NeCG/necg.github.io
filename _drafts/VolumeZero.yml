@@ -1,0 +1,22 @@
+# plugin portfolio from https://github.com/flatterline/jekyll-plugins
+
+description:
+  NeCG's first project. A set of board games made in C++, OpenGL and Prolog.
+endorsements:
+-
+  body:
+    Working with this company was great!
+  from: Endorser Name
+  role: Project Manager
+image:
+  url: /assets/volume0_project_logo_2.png
+  title: VolumeZero
+  alt: Sample Project
+layout: project
+project_description:
+  VolumeZero was the first project of NeCG (hence the name) and the first one to be publicly available back in 2006. It features a set of board games like Go, Virus and Abalone.  
+  They were all built using C++, OpenGL and Prolog.
+published: true
+short:     NeCG's first project. A set of board games made in C++, OpenGL and Prolog.
+title:     VolumeZero
+website:   http://paginas.fe.up.pt/~necg/sites/VolumeZeroSite/
