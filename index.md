@@ -1,46 +1,28 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Home
+tagline: Computer Graphics Student Group of FEUP
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<img alt="logo" src="{{ site.assets }}\necg-logo-2011-white-resampled.png" style="width: 128px; height: 128px; float: left" />
+The Computer Graphics Student Group of FEUP, NeCG|FEUP, was created back in 2006 by a group of undergraduated Informatics and Computing Engineering students who were passionate about Computer Graphics.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Our main goals are to create a group of mutual help raising the awareness of our members about the subjects related to Computer Graphics, to promote undergraduate R&D activities and to spread The Word of the Pixel! We also have a very special interest in the science and development of Digital Games.
 
-## Update Author Attributes
+Usually our activities are related to software development, yet we also promote open academic/industrial events since we believe that openness and awareness are the path to the next iteration of the global knowledge.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+Fortunately we are not alone! Since our creation we have been strongly supported by the [Department of Informatics Engineering](http://www.fe.up.pt/si_uk/unidades_geral.visualizar?p_unidade=151) (DEI) of the [Engineering Faculty of Porto University](http://www.fe.up.pt/si_uk/web_page.inicial) (FEUP).
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+Alone we are powerful. Together we are absolute!
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+---
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+Latest News
+===========
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
