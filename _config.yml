@@ -3,6 +3,8 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "Gemfile", "Gemfile.lock"]
 pygments: true
 
+encoding: UTF-8
+
 title : NeCG - FEUP
 tagline: Computer Graphics Student Group of FEUP
 author :
