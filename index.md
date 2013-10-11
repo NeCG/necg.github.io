@@ -5,7 +5,7 @@ tagline: Computer Graphics Student Group of FEUP
 ---
 {% include JB/setup %}
 
-<img alt="logo" src="{{ site.assets }}\necg-logo-2011-white-resampled.png" style="width: 128px; height: 128px; float: left" />
+<img alt="logo" src="{{ site.assets }}\necg-logo-2011-white-resampled.png" style="width: 128px; height: 128px; float: left; margin-right: 10px" />
 The Computer Graphics Student Group of FEUP, NeCG|FEUP, was created back in 2006 by a group of undergraduated Informatics and Computing Engineering students who were passionate about Computer Graphics.
 
 Our main goals are to create a group of mutual help raising the awareness of our members about the subjects related to Computer Graphics, to promote undergraduate R&D activities and to spread The Word of the Pixel! We also have a very special interest in the science and development of Digital Games.

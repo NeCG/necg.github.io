@@ -10,7 +10,7 @@ group: navigation
 
 Daniel Pereira - MIEIC/FEUP  
 Diogo Santos - MIEIC/FEUP  
-[Duarte Duarte](http://www.github.com/DDuarte) - MIEIC/FEUP
+[Duarte Duarte](http://github.com/DDuarte) - MIEIC/FEUP  
 Filipe Carvalho - MIEIC/FEUP  
 Gonçalo Silva - MIEIC/FEUP  
 Henrique Ferrolho - MIEIC/FEUP  
