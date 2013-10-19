@@ -4,12 +4,11 @@ layout: base
 {% if page.cover_image %}
 <div class="article-cover">
     <div>
-        <img src="/images/{{ page.cover_image }}" class="image">
+        <img src="{{ site.baseurl }}images/{{ page.cover_image }}" class="image">
     </div>
 </div>
 {% endif %}
 <article>
-
     <div class="container">
         <header>
             <div class="meta">
@@ -27,12 +26,11 @@ layout: base
 
         <footer>
             <address>
-               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+               {% if page.author.image %}<img src="{{ site.baseurl }}images/{{ page.author.image }}">{% endif %}
                 <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
                 <span class="muted">{{ page.author.bio }}</span>
                 </p>
             </address>
-
         </footer>
 
         {% if site.inc.disqus.shortname %}

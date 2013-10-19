@@ -26,7 +26,6 @@ inc:
 
   google_font: 'Droid+Sans:400,700'
 
-url:         http://incorporated.sendtoinc.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -53,7 +52,9 @@ textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"
 
-baseurl:     /
+url:         http://paginas.fe.up.pt/~necg
+site_url:    http://paginas.fe.up.pt/~necg
+baseurl:     /~necg/
 lsi:         false
 
 maruku:
@@ -93,7 +94,7 @@ redcloth:
 #
 assets:
   dirname: assets
-  baseurl: /assets/
+  baseurl: /~necg/assets/
   sources:
     - _assets/javascripts
     - _assets/stylesheets
