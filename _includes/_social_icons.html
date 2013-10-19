@@ -1,0 +1,15 @@
+{% if site.inc.twitter %}
+<a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter {{ include.class }}"></i></a>
+{% endif %}
+{% if site.inc.facebook %}
+<a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook {{ include.class }}"></i></a>
+{% endif %}
+{% if site.inc.github %}
+<a href="http://github.com/{{ site.inc.github }}" title="Follow on Github" target="_blank"><i class="icon icon-github {{ include.class }}"></i></a>
+{% endif %}
+{% if site.inc.linkedin %}
+<a href="http://linkedin.com/{{ site.inc.linkedin }}" title="Connect on LinkedIn" target="_blank"><i class="icon icon-linkedin {{ include.class }}"></i></a>
+{% endif %}
+{% if site.inc.email %}
+<a href="mailto:{{ site.inc.email }}" title="Contact by e-mail" target="_blank"><i class="icon icon-email {{ include.class }}"></i></a>
+{% endif %}

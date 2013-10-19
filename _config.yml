@@ -1,62 +1,107 @@
-permalink: /:categories/:year/:month/:day/:title 
-
-exclude: [".rvmrc", ".rbenv-version", "Rakefile", "Gemfile", "Gemfile.lock"]
-pygments: true
-
-encoding: UTF-8
-
-title : NeCG - FEUP
-tagline: Computer Graphics Student Group of FEUP
-author :
-  name : Computer Graphics Student Group of FEUP
-  email : necg@fe.up.pt
-  github : NeCG
-  twitter : necg_feup
-  feedburner : none
-
-production_url : http://necg.github.io
-
-assets : /assets
-
-JB :
-  version : 0.3.0
-
-  BASE_PATH : false
-
+inc:
+  title:        "NeCG"
+  subtitle:     "Computer Graphics Student Group"
+  cover_image:  blog-cover.jpg
+  logo:         logo.png
+  company:      FEUP
+  url:          http://fe.up.pt
+  facebook:     FEUP.NeCG
+  twitter:      necgfeup
+  github:       necg
+  email:        necg@fe.up.pt
+  linkedin:     pub/necg-feup/83/a35/b40
+  tagline:      ""
   
-  ASSET_PATH : false
+  disqus:
+    shortname:  false
+  
+  sharing:
+    twitter:    false
+    facebook:   false
+    gplus:      false
+    hn:         false
+   
+  analytics:
+    google: 
+      id: 'UA-44734065-2'
 
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  google_font: 'Droid+Sans:400,700'
 
-  comments :
-    provider : false
-    disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
- 
-  analytics :
-    provider : google 
-    google : 
-        tracking_id : 'UA-44734065-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+url:         http://incorporated.sendtoinc.com
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     ['.rvmrc', '.rbenv-version', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md']
+timezone:    nil
+encoding:    CP850
 
-  sharing :
-    provider : false
+future:      false
+show_drafts: nil
+limit_posts: 0
+pygments:    true
+
+relative_permalinks: true
+
+permalink:     pretty
+paginate_path: 'page:num'
+paginate: 10
+
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
+
+excerpt_separator: "<!-- more -->"
+
+baseurl:     /
+lsi:         false
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+redcloth:
+  hard_breaks: true
+
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: none
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false

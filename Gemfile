@@ -1,2 +1,10 @@
 source 'https://rubygems.org'
+
+ruby '2.0.0'
+gem 'jekyll'
+gem 'jekyll-assets'
+gem 'maruku'
+gem 'rake'
+gem 'sass'
+gem 'uglifier'
 gem 'github-pages'
