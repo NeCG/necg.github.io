@@ -12,8 +12,35 @@ layout: base
 </div>
 
 <article class="container" id="content">
-    <p><img alt="logo" src="{{ site.baseurl }}images/necg.png" style="width: 128px; height: 128px; float: left" /></p>
-    <p>The <strong>Computer Graphics Student Group of FEUP</strong>, NeCG|FEUP, was created back in 2006 by a group of undergraduate Informatics and Computing Engineering students who were passionate about Computer Graphics. After a few years of inactivity, we (the newcomers of 2013) are now aiming efforts to revive the group in a new format featuring three related areas: Computer Graphics, Interaction and Game Development.</p>
-    <p>People from all kinds of backgrounds are welcome here: from the simple enthusiast to the computer graphics programmer, from the design specialist to the game experience analyst. We want to give people a chance to work here on what they really like to do.</p>
-    <p>Without our teaching mentors none of this would be possible, and since our creation we have been strongly supported by the <a href="http://www.fe.up.pt/si_uk/unidades_geral.visualizar?p_unidade=151" target="_blank">Department of Informatics Engineering</a> (DEI) of the <a href="http://www.fe.up.pt/si_uk/web_page.inicial">Engineering Faculty of Porto University</a> (FEUP).</p>
+{% for post in paginator.posts %}
+  {% unless post.draft %}
+    <section class="index">
+        <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
+        <div>
+            <h2 class="title"><a href="{{ site.baseurl2 }}{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt }}</p>
+            <div class="meta">
+              {% if post.author.name %}
+                Written By <address>{{ post.author.name }}</a> &mdash;
+              {% endif %}
+                <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </div>
+        </div>
+        <hr>
+    </section>
+    {% endunless %}
+    {% endfor %}
+    <section class="pagination" style="text-align:center">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="{{ site.baseurl }}" class="btn btn-outline">‹ Newer</a>
+        {% else %}
+        <a href="{{ site.baseurl }}page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
+        {% endif %}
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="{{ site.baseurl }}page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
+      {% endif %}
+    </section>
 </article>
+
