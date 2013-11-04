@@ -21,7 +21,7 @@ Se já te viste à rasca por não teres modelos 3D de jeito nos teus projectos p
 
 Se também gostares de criar pequenos jogos e simulações, podes usar o que aprenderes aqui e usares os teus próprios modelos no workshop seguinte...
 
-![Unity Logo][4] [Workshop Unity3D][5] - dia 8 de Novembro (Sexta-feira)
+![Unity Logo][4] [Workshop Unity3D][5] - dia 8 de Novembro (Sexta-feira) (**vagas preenchidas**)
 
 Também destinado aos principiantes, vamos ensinar-te a trabalhar neste motor de jogo e a construíres um jogo simples do início ao fim para que possas começar os teus próprios projectos com amigos - ou quem sabe, connosco! Este workshop vai decorrer também das 9:00 às 13:30 (*coffee break* incluído), e temos 40 vagas para oferecer. Também temos monitores com quem podes contar para tirar dúvidas durante o workshop, e mais uma vez, só tens de trazer o teu portátil com a versão mais recente do Unity (download [aqui][6]) e aproveitares o workshop ao máximo.
 
