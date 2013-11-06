@@ -2,14 +2,14 @@
 layout: post
 title: "Towards more and more realism in Computer Graphics   Invited Talk @ DEI by Kadi Bouatouch   FEUP, March 2nd, 14h"
 tags: [FL-Systems, Global Illumination, Procedural Modeling]
-excerpt: "Realism is obtained with realistic modeling techniques (for geometry and physical parameters such BRDF, BSSRDF and scattering coefficients), rendering and global illumination algorithms."
+excerpt: "Realism is obtained with realistic modeling techniques (for geometry and physical parameters such as BRDF, BSSRDF and scattering coefficients), rendering and global illumination algorithms."
 author:
   name: NeCG
   twitter: necgfeup
   bio: Computer Graphics Student Group
   image: necg.png
 ---
-Realism is obtained with realistic modeling techniques (for geometry and physical parameters such BRDF, BSSRDF and scattering coefficients), rendering and global illumination algorithms.
+Realism is obtained with realistic modeling techniques (for geometry and physical parameters such as BRDF, BSSRDF and scattering coefficients), rendering and global illumination algorithms.
 
 Regarding modelling, we will show how to easily model a city using FL-systems (extension to L-systems) as well as grass fields and a human eye. Moreover, we will demonstrate that one can reconstruct a model from one image. As for global illumination, we will present some algorithms as well an analytical model dedicated to tree lighting (from the sky, the ground, the sun, and from other leaves).
 
