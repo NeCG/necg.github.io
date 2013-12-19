@@ -4,7 +4,7 @@ layout: base
 {% if page.cover_image %}
 <div class="article-cover">
     <div>
-        <img src="{{ site.baseurl }}images/{{ page.cover_image }}" class="image">
+        <img src="{{ page.cover_image | asset_path }}" class="image">
     </div>
 </div>
 {% endif %}
@@ -17,7 +17,7 @@ layout: base
 
         <section>
             {% if page.image %}
-                <img alt="project logo" src="{{ site.baseurl }}{{ page.url }}{{ page.image }}" />
+                <img alt="project logo" src="{{ site.baseurl }}{{ page.url | remove_first:'/' }}{{ page.image }}" />
             {% endif %}
             {{ content }}
             {% include _social.html %}

@@ -53,10 +53,9 @@ textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"
 
-url:         http://paginas.fe.up.pt/~necg
-site_url:    http://paginas.fe.up.pt/~necg
+url:         http://paginas.fe.up.pt
 baseurl:     /~necg/
-baseurl2:    /~necg
+
 lsi:         false
 
 maruku:
@@ -103,7 +102,7 @@ assets:
     - _assets/images
   js_compressor: uglifier
   css_compressor: sass
-  cachebust: none
+  cachebust: hard
   cache: false
   gzip: [ text/css, application/javascript ]
   debug: false

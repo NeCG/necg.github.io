@@ -3,11 +3,6 @@ layout: post
 title: "Graphics, Interaction and Gaming 2011"
 tags: [Displax, Edigma, FCUP, Gaming, GIG, Graphics, Interaction, Miguel Fonseca, NeCG, Pixel, Nerve, SPCV, Veronica Orvalho, Victor Martins]
 excerpt: "GIG is a set of talks and workshops that will happen during 2011."
-author:
-  name: NeCG
-  twitter: necgfeup
-  bio: Computer Graphics Student Group
-  image: necg.png
 ---
 **Graphics, Interaction and Gaming** is a set of talks and workshops that will happen during 2011.  
 With the objective of raising the awareness for those subjects, we will try to gather a multicultural set of people who, in our opinion, are developing tomorrow's breakthroughs in these fields.  

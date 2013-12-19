@@ -1,13 +1,7 @@
 ---
 layout: post
 title: "Workshops Blender e Unity3D - Semana de Informática 2013 [PT]"
-
 excerpt: "Informações sobre os workshops a realizar na Semana de Informática"
-author:
-  name: NeCG
-  twitter: necgfeup
-  bio: Computer Graphics Student Group
-  image: necg.png
 ---
 Podes encontrar em baixo mais detalhes sobre cada workshop. Como forma de comemoração pelo regresso do NeCG, os dois workshops que temos para oferecer não terão qualquer custo de participação - aproveita!
 

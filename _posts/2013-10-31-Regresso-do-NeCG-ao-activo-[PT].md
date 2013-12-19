@@ -3,11 +3,6 @@ layout: post
 title: "Regresso do NeCG ao activo [PT]"
 
 excerpt: "É com muito gosto que anunciamos à comunidade estudantil da FEUP (e em especial, de Informática) que o Núcleo Estudantil de Computação Gráfica está de volta ao activo após um período prolongado de repouso."
-author:
-  name: NeCG
-  twitter: necgfeup
-  bio: Computer Graphics Student Group
-  image: necg.png
 ---
 Boa tarde a todos!
 

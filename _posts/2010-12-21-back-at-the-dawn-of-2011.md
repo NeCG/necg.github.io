@@ -3,11 +3,6 @@ layout: post
 title: "Back at the dawn of 2011"
 tags: [2011, NeCG]
 excerpt: "That's right dear readers, coders, artists and dreamers! The Computer Graphics Student Group of FEUP is back online."
-author:
-  name: NeCG
-  twitter: necgfeup
-  bio: Computer Graphics Student Group
-  image: necg.png
 ---
 
 That's right dear readers, coders, artists and dreamers! The Computer Graphics Student Group of FEUP is back online in the year that our University (University of Porto) [celebrates its centenary](http://centenario.up.pt/index.php).

@@ -2,11 +2,6 @@
 layout: post
 title: "Palestra Videojogos com a Nerd Monkeys [PT]"
 excerpt: "Informações da palestra sobre videojogos com a Nerd Monkeys no próximo dia 11 de Dezembro"
-author:
-  name: NeCG
-  twitter: necgfeup
-  bio: Computer Graphics Student Group
-  image: necg.png
 ---
 
 No seguimento das atividades que temos vindo a organizar, é com todo o gosto que vimos anunciar que na próxima Quarta-feira, dia 11 de Dezembro às 14:15 na Biblioteca da FEUP irá decorrer uma palestra que tem como tema central... os videojogos!
