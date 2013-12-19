@@ -1,0 +1,6 @@
+# robots.txt for http://http://paginas.fe.up.pt/~necg/
+
+User-agent: *
+Disallow: /qa/
+
+Sitemap: http://paginas.fe.up.pt/~necg/sitemap.xml
