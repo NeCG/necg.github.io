@@ -9,5 +9,5 @@ installation
 3. `git clone git@github.com:necg/site.git`
 4. `cd site`
 5. `bundle install`
-6. `jekyll build`
-7. Done. Built files are placed in `_site` directory (warning: has to be served from serverroot/**~necg**)
+6. `jekyll serve --watch --config _config_local.yml`
+7. Browse to http://localhost:4000
