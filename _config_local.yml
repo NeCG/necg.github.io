@@ -1,0 +1,108 @@
+inc:
+  title:        "NeCG"
+  subtitle:     "Computer Graphics Student Group"
+  cover_image:  blog-cover.jpg
+  logo:         logo.png
+  tagline:      ""
+
+  facebook:     FEUP.NeCG
+  twitter:      necgfeup
+  github:       necg
+  email:        necg@fe.up.pt
+  linkedin:     pub/necg-feup/83/a35/b40
+  googleplus:   u/0/115019808722247043133
+
+  disqus:
+    shortname:  false
+
+  sharing:
+    twitter:    false
+    facebook:   false
+    gplus:      false
+    hn:         false
+
+  analytics:
+    google:
+      id: 'UA-44734065-3'
+
+  google_font: 'Droid+Sans:400,700'
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     ['.rvmrc', '.rbenv-version', 'Rakefile', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'start_windows.bat']
+timezone:    nil
+encoding:    UTF-8
+
+future:      false
+show_drafts: nil
+limit_posts: 0
+pygments:    true
+
+relative_permalinks: true
+
+permalink:     pretty
+paginate_path: 'page:num'
+paginate: 10
+
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
+
+excerpt_separator: "<!-- more -->"
+
+url:         http://localhost:40000
+baseurl:     /
+
+lsi:         false
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+redcloth:
+  hard_breaks: true
+
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: hard
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false
