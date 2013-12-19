@@ -56,6 +56,9 @@ excerpt_separator: "<!-- more -->"
 url:         http://paginas.fe.up.pt
 baseurl:     /~necg/
 
+rssname:     NeCG
+rssurl:      http://paginas.fe.up.pt/~necg/
+
 lsi:         false
 
 maruku:

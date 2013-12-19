@@ -53,8 +53,11 @@ textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"
 
-url:         http://localhost:40000
+url:         http://localhost:4000
 baseurl:     /
+
+rssname:     NeCG
+rssurl:      http://localhost:4000/
 
 lsi:         false
 
