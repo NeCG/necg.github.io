@@ -1,0 +1,23 @@
+---
+layout: base
+title: Projects
+---
+<article class="container" id="content">
+  <div class="span16">
+    <p>Here you can check most of our projects!</p>
+    <p>If the information that we share here doesn’t satisfy your curiosity, please email us and we’ll provide you what is lacking.</p>
+
+    <li id="projects" class="row">
+      {% for project in page.projects %}
+      <ul class="project col-xs-6 col-md-3-5">
+        <a href="{{ site.baseurl }}projects/{{ project[0] }}">
+          {% if project[1].image %}
+          <img src="{{ project[1].image.url | asset_path }}" title="{{ project[1].image.title }}" alt="{{ project[1].image.alt }}" />
+          {% endif %}
+          <p>{{ project[1].short }}</p>
+        </a>
+      </ul>
+      {% endfor %}
+    </li>
+  </div>
+</article>

@@ -1,0 +1,14 @@
+description:
+  Teacher against Students and Students against Teachers. Sounds awesome?
+image:
+  url: jogoescola_project_logo.jpg
+  title: School's Game Logo
+  alt: School's Game Logo
+layout: project
+published: true
+short:     Teachers vs Students in a game implemented in OpenGL, C++ and Prolog
+title:     Jogo da Escola (School's Game)
+website:   http://paginas.fe.up.pt/~necg/sites/JogoEscola/index.html
+website_description:
+  Check the projects webpage to get more information about it.
+authors: ["Tiago Fernandes", "Marco Cunha"]

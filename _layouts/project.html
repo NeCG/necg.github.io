@@ -1,42 +1,36 @@
 ---
 layout: base
 ---
-{% if page.cover_image %}
-<div class="article-cover">
-    <div>
-        <img src="{{ page.cover_image | asset_path }}" class="image">
-    </div>
-</div>
-{% endif %}
-<article>
-    <div class="container">
-        <header>
-            <h1 class="title">{{ page.title }}</h1>
-            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
-        </header>
+<article class="container" id="content">
+  {% if page.image %}
+  <div class="span5 logo" style="display: inline; float: left; margin-left: 20px; width: 200px">
+    <a href="{{ page.website }}">
+      <img src="{{ page.image.url | asset_path }}" title="{{ page.image.title }}" alt="{{ page.image.alt }}" style="border: 1px solid #eee;padding: 2px" />
+    </a>
+  </div>
+  {% endif %}
 
-        <section>
-            {% if page.image %}
-                <img alt="project logo" src="{{ site.baseurl }}{{ page.url | remove_first:'/' }}{{ page.image }}" />
-            {% endif %}
-            {{ content }}
-            {% include _social.html %}
-        </section>
+  <div class="span10">
+    <h1>{{ page.title }}</h1>
+    {{ page.description | simple_format }}
 
-        <footer>
-            <address>
-                <p>Project by:<br>
-                    {% for author in page.authors %}
-                        <span class="muted"><strong>{{ author }}</strong></span>{% if forloop.last == false %}, {% endif %}
-                    {% endfor %}
-                </p>
-            </address>
-        </footer>
+    {% if page.website_description %}
+    <br/><br/><p>{{ page.website_description }}</p>
+    {% endif %}
+    {% if page.website %}
+    <div class="website"><a href="{{ page.website }}">{{ page.website }}</a></div>
+    {% endif %}
+  </div>
 
-        {% if site.inc.disqus.shortname %}
-        <section>
-            {% include _disqus.html %}
-        </section>
-        {% endif %}
-    </div>
+  {% if page.authors %}
+  <footer>
+    <address>
+      <br/><br/><p>Project by:<br>
+        {% for author in page.authors %}
+        <span class="muted"><strong>{{ author }}</strong></span>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </p>
+    </address>
+  </footer>
+  {% endif %}
 </article>

@@ -1,0 +1,14 @@
+description:
+  This was an internal project made by Tiago Fernandes and Marco Silva, as a way to apply the technology developed at NeCG in a full creative manner!  
+  The idea is now suffering further development with commercial intents, as so we are not disclosing all the material (code, tools, art, design) produced at that time.
+
+  Pay attention to the news section as we will reveal some information in the right time :)
+image:
+  url: sudokube_project_logo_5.jpg
+  title: Sudokube Logo
+  alt: Sudokube Logo
+layout: project
+published: true
+short:     3D Sudoku game
+title:     Sudokube
+authors: ["Tiago Fernandes", "Marco Silva"]

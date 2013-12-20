@@ -1,0 +1,15 @@
+description:
+  The aim of this project was to build a simple and intuitive interface that could give access to the OpenGL runtime, using the Scheme programming language.  
+  The interface should be simple enough to let newcomers create and handle 2D and 3D applications having no strong knowledge in these matters.
+image:
+  url: project_oglscheme.gif
+  title: OGLScheme Logo
+  alt: OGLScheme Logo
+layout: project
+published: true
+short:     OpenGL in Scheme programming language
+title:     OpenGL and Scheme interface
+website:   http://paginas.fe.up.pt/~necg/sites/OpenGLSchemeSite/index.php
+website_description:
+  See the projects own website to get further information (in Portuguese).
+authors: ["Tiago Fernandes", "Marco Silva", "Susana Vilaça", "Tomé Duarte"]

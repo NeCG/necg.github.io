@@ -1,0 +1,15 @@
+description:
+  Enoch 3.0 is an opensource full graphical engine developed with the objective of becoming a learning platform for the DirectX API.  
+  This engine was created in a way that the users can choose the level of transparency desired. This way, programmers without DirectX experience can learn this API in a simple manner and experienced users can make complex applications very quickly using DirectX and Enoch 3.0 advanced features.
+image:
+  url: enoch_project_logo.jpg
+  title: Enoch 3.0 Logo
+  alt: Enoch 3.0 Logo
+layout: project
+published: true
+short:     Open source graphical engine based on DirectX
+title:     Enoch 3.0
+website:   http://paginas.fe.up.pt/~necg/sites/Enoch/main.html
+website_description:
+  For more information and to download the project's source code and documentation, follow the next link.
+authors: ["Tiago Fernandes"]
