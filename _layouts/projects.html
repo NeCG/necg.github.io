@@ -11,6 +11,7 @@ title: Projects
       {% for project in page.projects %}
       <ul class="project col-xs-6 col-md-3-5">
         <a href="{{ site.baseurl }}projects/{{ project[0] }}">
+          <b>{{ project[1].title }}</b>
           {% if project[1].image %}
           <img src="{{ project[1].image.url | asset_path }}" title="{{ project[1].image.title }}" alt="{{ project[1].image.alt }}" />
           {% endif %}
