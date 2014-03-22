@@ -4,7 +4,7 @@ title: "Microsoft Academic Day @ FEUP"
 excerpt: "Informações sobre o evento da Microsoft no próximo dia 26 de Março"
 ---
 
-O NeCG vem por este meio anunciar a realização de um evento orientado à comunidade estudantil da nossa Faculdade: **Microsoft Academic Day @ FEUP**. 
+O NeCG, em parceria com o NuIEEE, vem por este meio anunciar a realização de um evento orientado à comunidade estudantil da nossa Faculdade: **Microsoft Academic Day @ FEUP**.
 Este evento irá realizar-se no dia 26 de Março. Vamos contar com a presença de dois representantes da Microsoft e dois Microsoft Student Partners.
 
 ![Microsoft Logo][logo_msft]
@@ -22,14 +22,14 @@ Poderás contar com:
   <img alt="Windows Phone 8 Logo" src="{{ 'windowsphone8.jpg' | asset_path }}">
 </div>
 
-- Uma workshop de Windows Phone e Azure Mobile Services que será uma série de demos hands-on, nas quais os participantes poderão desenvolver diferentes apps utilizando as potencialidades das duas ferramentas. (14:45 - 16:45h)
+- Uma workshop de **Windows Phone** e **Azure Mobile Services** que será uma série de demos *hands-on*, nas quais os participantes poderão desenvolver diferentes apps utilizando as potencialidades das duas ferramentas. (14:45 - 16:45h)
 	* Pré-Requisito: Instalar [Visual Studio][vs] e o [Windows Phone SDK][wSdk].[^1]
 
 <div style="float:right">
   <img alt="Unity3D Logo" src="{{ 'Unity_Pri.png' | asset_path }}">
 </div>
 
-- Uma workshop de [Unity3D][unity] que consiste no desenvolvimento de um First Person Shooter simples utilizando o motor de jogo. (17:00 - 18:30h)
+- Uma workshop de [Unity3D][unity] que consiste no desenvolvimento de um FPS simples utilizando este motor de jogo. (17:00 - 18:30h)
 	* Pré-Requisito: Instalar última versão do Unity3D. Clica [aqui][unity].
 
 ---
@@ -47,18 +47,22 @@ Poderás contar com:
 - Workshop de Windows Phone e Azure Mobile Services: [http://bit.ly/1gRbZsF][wAzure]
 - Workshop de Unity3D: [http://bit.ly/1gjVwyy][wUnity]
 
+<div style="text-align:center">
+  <img alt="Poster do Evento" src="{{ 'ic_003_llr.png' | asset_path }}">
+</div>
+
 ---
 
   [imagine_cup]: https://www.imaginecup.com/#?fbid=QbBe9oERFKQ "Imagine Cup"
   [unity]: https://unity3d.com/pt/unity/download "Unity3D"
-  [registo]: http://goo.gl/x0guve "Registo Palestra"
-  [poster]: http://i.imgur.com/IKpcDzl.jpg?1
   [wAzure]: http://bit.ly/1gRbZsF "Workshop de Windows Phone e Azure Mobile Services"
   [wUnity]: http://bit.ly/1gjVwyy "Workshop de Unity3D"
   [wSdk]: http://dev.windowsphone.com/en-us/downloadsdk "Windows Phone SDK"
   [vs]: http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-8 "Visual Studio"
-  [i105]: https://sigarra.up.pt/feup/pt/instal_geral.espaco_view?pv_id=74724 "I-105"
-  [j201]: https://sigarra.up.pt/feup/pt/instal_geral.espaco_view?pv_id=74826 "J201"
+  [i105]: https://sigarra.up.pt/feup/pt/instal_geral.espaco_view?pv_id=74724 "Sala I-105 @ FEUP"
+  [j201]: https://sigarra.up.pt/feup/pt/instal_geral.espaco_view?pv_id=74826 "Sala J201 @ FEUP"
   [logo_msft]: {{ 'MSFT_logo_Web.jpg' | asset_path }}
   *[NeCG]: Núcleo Estudantil de Computação Gráfica
+  *[NuIEEE]: Núcleo do IEEE (Institute of Electrical and Electronics Engineers)
+  *[FPS]: First Person Shooter
   [^1]: Não é necessário ter um Windows Phone
