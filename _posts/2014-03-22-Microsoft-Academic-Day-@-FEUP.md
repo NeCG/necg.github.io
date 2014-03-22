@@ -19,13 +19,11 @@ Poderás contar com:
 
 ***Atividades***
 
-- 14:00 - Apresentação da Imagine Cup. Entrada livre. Local: sala I-105
-- 14:45 - Workshop de Windows Phone e Azure Mobile Services. Local: sala J201
+- 14:00 - Apresentação da Imagine Cup. Entrada livre. Local: sala [I-105][i105].
+- 14:45 - Workshop de Windows Phone e Azure Mobile Services. Local: sala [J201][j201].
 - 17:00 - Workshop de Unity3D. Local: sala J201
 
-
-***Onde?*** Sexto piso da Biblioteca da FEUP - Sala *Ponto de Encontro* ([C603])  
-***Quando?*** Quarta-feira, dia 26 de Março
+***Quando?*** Quarta-feira, dia 26 de Março de 2014.
 
 ***Inscrições:***
 
@@ -42,3 +40,5 @@ Poderás contar com:
   [wUnity]: http://bit.ly/1gjVwyy "Workshop de Unity3D"
   [wSdk]: http://dev.windowsphone.com/en-us/downloadsdk "Windows Phone SDK"
   [vs]: http://www.visualstudio.com/downloads/download-visual-studio-vs#d-express-windows-8 "Visual Studio"
+  [i105]: https://sigarra.up.pt/feup/pt/instal_geral.espaco_view?pv_id=74724 "I-105"
+  [j201]: https://sigarra.up.pt/feup/pt/instal_geral.espaco_view?pv_id=74826 "J201"
