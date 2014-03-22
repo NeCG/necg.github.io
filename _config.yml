@@ -53,11 +53,11 @@ textile_ext:   textile
 
 excerpt_separator: "<!-- more -->"
 
-url:         http://paginas.fe.up.pt
-baseurl:     /~necg/
+url:         http://necg.fe.up.pt
+baseurl:     /
 
 rssname:     NeCG
-rssurl:      http://paginas.fe.up.pt/~necg/
+rssurl:      http://necg.fe.up.pt/
 
 lsi:         false
 
@@ -98,7 +98,7 @@ redcloth:
 #
 assets:
   dirname: assets
-  baseurl: /~necg/assets/
+  baseurl: /assets/
   sources:
     - _assets/javascripts
     - _assets/stylesheets
